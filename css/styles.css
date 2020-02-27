@@ -48,6 +48,10 @@ body {
     margin-bottom: 8px;
 }
 
+.page-header p {
+    margin: 16px 0 8px 0;
+}
+
 h2, h3 {
     color: #05F29B;
 }
@@ -56,6 +60,7 @@ p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.8em;
     letter-spacing: 0.06em;
+    margin: 24px 0;
 }
 
 p > i.material-icons {
@@ -78,10 +83,10 @@ b {
     justify-content: center;
     background-color: #05F29B;
     color: #1C0044;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.2em;
-    margin-top: 64px;
+    font-size: 1.0em;
+    margin-top: 40px;
     cursor: pointer;
     outline: none;
 }
@@ -145,7 +150,7 @@ b {
     position: absolute;
     width: 24px;
     height: 24px;
-    bottom: 5vh;
+    bottom: 24px;
     left: calc(50% - 12px);
     cursor: pointer;
 }
@@ -276,7 +281,7 @@ section {
 }
 
 .page-footer .container.max-height {
-    padding: 64px 0;
+    padding: 40px 0;
     height: 350px;
 }
 
@@ -300,6 +305,9 @@ section {
     font-size: 1.4em;
 }
 
+.page-footer p {
+    margin: 12px 0 12px 0;
+}
 
 @media (max-width: 768px) {
 
