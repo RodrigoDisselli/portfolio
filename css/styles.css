@@ -198,6 +198,8 @@ b {
     width: 350px;
     min-width: 350px;
     height: 350px;
+    max-width: 350px;
+    max-height: 350px;
     background-color: rgb(46, 4, 105);
     background-size: cover;
     background-position: center;
@@ -336,6 +338,13 @@ section {
     
     .page-footer .email-address {
         font-size: 1.0em;
+    }
+
+    .card-list-horizontal .card-list-horizontal-item {
+        width: 70vw;
+        min-width: 240px;
+        height: 70vw;
+        min-height: 70vw;
     }
     
 }
