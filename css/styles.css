@@ -19,9 +19,11 @@ body {
     justify-content: center;
 }
 
-.page-header .logo-ux-ui {
-    width: 28px;
-    margin-bottom: 16px;
+.logo-ux-ui {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 32px;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> TITULOS E TEXTOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -77,6 +79,7 @@ b {
     font-size: 1.2em;
     margin-top: 64px;
     cursor: pointer;
+    outline: none;
 }
 
 .btn:hover {
@@ -140,6 +143,7 @@ b {
     height: 24px;
     bottom: 5vh;
     left: calc(50% - 12px);
+    cursor: pointer;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> CONTAINER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -178,6 +182,10 @@ b {
 .horizontal-scroll::-webkit-scrollbar {
     width: 8px;
     height: 8px;
+
+    /* temporariamente oculto para testes */
+
+    display: none;
 }
  
 .horizontal-scroll::-webkit-scrollbar-track {
@@ -218,6 +226,8 @@ b {
     color: #F5F5F5;
     text-shadow: 1px 2px black;
     letter-spacing: 0.06em;
+    font-weight: 500;
+    font-size: 1.8em;
 }
 
 .card-list-horizontal .card-list-horizontal-item:hover .card-opacity {
@@ -267,7 +277,7 @@ section {
 }
 
 .page-footer .footer-image {
-    width: 380px;
+    width: 350px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -345,6 +355,14 @@ section {
         min-width: 240px;
         height: 70vw;
         min-height: 70vw;
+    }
+
+    .card-list-horizontal .card-list-horizontal-item .card-title {
+        font-size: 1.4em;
+    }
+
+    .horizontal-scroll::-webkit-scrollbar {
+        display: none;
     }
     
 }

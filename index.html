@@ -10,11 +10,12 @@
     <title>Rodrigo Almeida - Product Designer (UX/UI)</title>
   </head>
   <body>
+    <img src="images/logo_ux_ui.png" alt="UX/UI Designer" class="logo-ux-ui">
     <header class="page-header">
-        <img src="images/logo_ux_ui.png" alt="UX/UI Designer" class="logo-ux-ui">
         <h3>Rodrigo D. Almeida</h3>
         <h1>Product<br>Designer</h1>
-        <button class="btn">Saiba mais</button>
+        
+        <button class="btn" onclick="goTo('intro')">Saiba mais</button>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/rodrigodissellialmeida/" target="_blank" id="linkedin" class="social-media-icon">
                 <div class="social-media-icon-tooltip">LinkedIn</div>
@@ -26,28 +27,37 @@
                 <div class="social-media-icon-tooltip">Meu portfólio</div>
             </a>
         </div>
-        <img class="icon-scroll" src="images/icons/arrow_down.svg">
-    </header> 
+        <img class="icon-scroll" onclick="goTo('projects')" src="images/icons/arrow_down.svg">
+    </header>
+
+    <section id="projects">
+        <div class="container"><div class="col"><h2>✌ Cases & Projetos</h2></div></div>
+        <div class="horizontal-scroll">
+            <div class="container row-on-mobile">
+                <div class="card-list-horizontal" id="project-list">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="articles">
-        <div class="container"><div class="col"><h2>Artigos e posts</h2></div></div>
+        <div class="container"><div class="col"><h2>📃 Artigos & Posts</h2></div></div>
         <div class="horizontal-scroll">
-                <div class="container row-on-mobile">
-                    <div class="card-list-horizontal" id="article-list">
-                    </div>
+            <div class="container row-on-mobile">
+                <div class="card-list-horizontal" id="article-list">
                 </div>
+            </div>
         </div>
-        
-        
     </section>
     
     <section id="intro">
         <div class="container">
             <div class="col">
-                <h2>Oi, meu nome é Rodrigo,</h2>
-                <p>Trabalho com design de produtos a quase 2 anos, na minha rotina eu realizo pesquisas de mercado, faço o design de interfaces desde o primeiro rabisco no papel até o protótipo de alta fidelidade com Adobe Xd ou Figma.</p>
-                <p>Tenho experiência trabalhando com <b>Bootstrap</b>, <b>Ant Design</b> e <b>Material Design</b>.</p>
-                <p>Já participei de projetos como desenvolvedor Front-end, utilizando HTML5, CSS3, Vanilla Javascript e React.js. Também já desenvolvi aplicativos mobile com Flutter.</p>
+                <h2>Eai! Tranquilo?</h2>
+                <p>Eu trabalho com design de produtos a quase 2 anos, na minha rotina eu realizo pesquisas de mercado, faço o design de interfaces desde o primeiro rabisco no papel até o protótipo de alta fidelidade com Adobe Xd ou Figma.</p>
+                <p>Tenho experiência trabalhando com <b>Bootstrap</b>, <b>Ant Design</b> e <b>Material Design</b>, mas também já desenvolvi minhas próprias Guidelines.</p>
+                <p>Já participei de projetos como desenvolvedor Front-end, utilizando HTML5, CSS3, Vanilla Javascript e React.js. Também já desenvolvi aplicativos mobile com Flutter. E no momento estou cursando o último ano da minha graduação em Engenharia da Computação.</p>
+                <p>Atualmente estou morando em Campinas-SP.</p>
             </div>
             <div class="col center mob-order1">
                 <img src="images/intro-image.png" alt="Mão desenhando uma interface em uma folha de papel" class="intro-image">
