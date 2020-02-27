@@ -252,6 +252,7 @@ b {
     letter-spacing: 0.06em;
     font-weight: 500;
     font-size: 1.8em;
+    text-decoration: none;
 }
 
 .card-list-horizontal .card-list-horizontal-item:hover .card-opacity {
