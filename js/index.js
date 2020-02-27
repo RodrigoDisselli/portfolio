@@ -21,7 +21,7 @@ function createArticleList(title, image, url) {
     div.style.backgroundImage = `url(${image})`;
     div.innerHTML = `
       <a href="${url}" target="_blank" class="card-opacity"></a>
-      <h3 class="card-title">${title}</h3>
+      <a href="${url}" class="card-title">${title}</a>
       `
     return articleList.appendChild(div);
 }
