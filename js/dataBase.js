@@ -8,6 +8,11 @@ const projects = [
 
 const articles = [
     {
+        title: "Meu primeiro site de portfólio (Inception alert)",
+        image: "https://miro.medium.com/max/1366/1*UXAACcu0dTHJBBqrb531LQ.png",
+        url: "https://medium.com/@disselli.rodrigo/meu-primeiro-site-de-portf%C3%B3lio-ux-ui-design-6b4751689b36",
+    },
+    {
         title: "Base do uso de contraste no UI Design",
         image: "https://miro.medium.com/max/3840/1*bWZOCimE1M2wKTzG9R0i_g.png",
         url: "https://medium.com/@disselli.rodrigo/base-do-uso-de-contraste-no-ui-design-b949a9c3f51f",
