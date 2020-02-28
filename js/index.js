@@ -29,3 +29,10 @@ function createArticleList(title, image, url) {
 function goTo(div) {
   document.getElementById(div).scrollIntoView({behavior: "smooth"})
 }
+
+// function track(category, label, action) {
+//   gtag('event', 'play', {
+//     'event_category': 'Videos',
+//     'event_label': 'Fall Campaign'
+//   });
+// }
