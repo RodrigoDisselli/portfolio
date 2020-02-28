@@ -388,5 +388,9 @@ section {
     .horizontal-scroll::-webkit-scrollbar {
         display: none;
     }
+
+    section {
+        padding: 32px 0;
+    }
     
 }
