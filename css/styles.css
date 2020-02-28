@@ -223,7 +223,7 @@ b {
 .card-list-horizontal {
     display: flex;
     flex-shrink: unset;
-    padding: 0 24px 12px 0;
+    padding: 0 24px 0px 0;
 }
 
 .card-list-horizontal .card-list-horizontal-item {
@@ -390,7 +390,7 @@ section {
     }
 
     section {
-        padding: 32px 0;
+        padding: 40px 0;
     }
     
 }
