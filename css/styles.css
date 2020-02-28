@@ -240,7 +240,7 @@ b {
     position: relative;
     margin-left: 24px;
     cursor: pointer;
-    border: 1px solid #380284;
+    border: 1px outset #380284;
 }
 
 .card-list-horizontal .card-list-horizontal-item .card-title {
