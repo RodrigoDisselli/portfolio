@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .page-header h1 {
-    font-size: 6em;
+    font-size: 5em;
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
@@ -144,6 +144,8 @@ b {
 .social-media #linkedin {background-image: url('../images/icons/linkedin_white.svg');}
 .social-media #instagram {background-image: url('../images/icons/instagram_white.svg');}
 .social-media #behance {background-image: url('../images/icons/behance_white.svg');}
+.social-media #medium {background-image: url('../images/icons/medium_white.svg');}
+
 
 .social-media .social-media-icon-tooltip {
     display: none;
