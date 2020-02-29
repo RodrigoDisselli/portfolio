@@ -54,6 +54,12 @@ function copyText(text, label, elementId){
   document.body.removeChild(el);
 
 
+  if(target.offsetLeft > (window.innerWidth / 2)){
+    copyAlert.style.right = "0px";
+    copyAlert.style.left = "unset";
+  }
+
+
   target.style.position = "relative";
   target.appendChild(copyAlert);
   setTimeout(() => {
