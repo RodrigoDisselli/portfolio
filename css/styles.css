@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #1C0044;
-    color: #F5F5F5;
+    background-color: rgb(14, 7, 24);
+    color: #F9F9F9;
     overflow-x: hidden;
 }
 
@@ -24,14 +24,22 @@ body::-webkit-scrollbar-thumb {
 .page-header {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/background-image.png');
-    background-position: top center;
-    background-size: contain;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(45deg, #1c0044, #5300c7);
+}
+
+.page-header .page-header-background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/background-image.png');
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
 }
 
 .logo-ux-ui {
@@ -39,12 +47,14 @@ body::-webkit-scrollbar-thumb {
     top: 24px;
     left: 24px;
     width: 32px;
+    z-index: 1;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> TITULOS E TEXTOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .page-header h1, .page-header h3 {
     margin: 0;
+    z-index: 1;
 }
 
 .page-header h1 {
@@ -65,15 +75,21 @@ body::-webkit-scrollbar-thumb {
 
 .page-header p {
     margin: 16px 0 8px 0;
+    z-index: 1;
 }
 
 h2, h3 {
     color: #05F29B;
 }
 
+h2 {
+    font-size: 1.8em;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.8em;
+    font-size: 1.1em;
+    line-height: 2em;
     letter-spacing: 0.06em;
     margin: 24px 0;
 }
@@ -83,13 +99,16 @@ p > i.material-icons {
 }
 
 b {
-    color: #05F29B;
+    color: rgb(2, 214, 136);
+    font-weight: 400;
 }
 
 a {
     cursor: pointer;
     color: #F5F5F5;
     text-decoration: none;
+    font-size: 1.1em;
+    line-height: 2em;
 }
 
 .email-address {
@@ -119,6 +138,7 @@ a {
     margin-top: 40px;
     cursor: pointer;
     outline: none;
+    z-index: 1;
 }
 
 .btn:hover {
@@ -130,7 +150,7 @@ a {
 .social-media {
     display: flex;
     margin-top: 48px;
-    
+    z-index: 1;
 }
 
 .social-media .social-media-icon:hover {
@@ -436,4 +456,16 @@ section {
         padding: 40px 0;
     }
     
+}
+
+@media (min-width: 1600px) {
+
+    .page-header h1 {
+        font-size: 6.4em;
+    }
+    
+    .page-header h3 {
+        font-size: 2.8em;
+    }
+
 }
