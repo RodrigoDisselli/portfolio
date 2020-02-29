@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(14, 7, 24);
-    color: #F9F9F9;
+    background-color: rgb(16, 0, 41);
+    color: #F0F0F0;
     overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 24px;
     left: 24px;
-    width: 32px;
+    width: 56px;
     z-index: 1;
 }
 
@@ -386,6 +386,10 @@ section {
 
 
 @media (max-width: 768px) {
+
+    .logo-ux-ui {
+        width: 40px;
+    }
 
     .page-header {
         background-size: 100vh auto;
