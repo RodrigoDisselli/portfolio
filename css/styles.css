@@ -350,6 +350,7 @@ section {
     left: 0px;
     word-wrap: unset;
     white-space: nowrap;
+    letter-spacing: 0.06em;
     font-weight: 700;
     box-shadow: 0 12px 24px rgb(0,0,0, .32);
 }
