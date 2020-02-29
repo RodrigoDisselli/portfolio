@@ -437,10 +437,6 @@ section {
     .page-footer .container.max-height {
         height: 520px;
     }
-    
-    .page-footer .email-address {
-        font-size: 1.0em;
-    }
 
     .card-list-horizontal .card-list-horizontal-item {
         width: 70vw;
