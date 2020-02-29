@@ -36,3 +36,27 @@ function goTo(div) {
 //     'event_label': 'Fall Campaign'
 //   });
 // }
+
+function copyText(text, label, elementId){
+  var target = document.getElementById(elementId);
+  var copyAlert = document.createElement('div');
+  copyAlert.classList.add("inline-alert");
+  copyAlert.innerHTML=`
+    ${label}
+  `
+
+
+  const el = document.createElement('textarea');
+  el.value = text;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+
+
+  target.style.position = "relative";
+  target.appendChild(copyAlert);
+  setTimeout(() => {
+    target.removeChild(copyAlert);
+  },"1500");
+}
