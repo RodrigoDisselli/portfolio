@@ -10,7 +10,7 @@ function createList(title, image, url, parent) {
   div.style.backgroundImage = `url(${image})`;
   div.innerHTML = `
     <a href="${url}" target="_blank" class="card-opacity"></a>
-    <a href="${url}" class="card-title">${title}</a>
+    <a href="${url}" target="_blank" class="card-title">${title}</a>
     `
   return parent.appendChild(div);
 }
