@@ -8,8 +8,8 @@ const projects = [
 
 const articles = [
     {
-        title: "Meu primeiro site de portfólio (Inception alert)",
-        image: "https://miro.medium.com/max/1920/1*pmIxDUTMd86I_fLGwIIEYA.png",
+        title: "Meu primeiro site de portfólio",
+        image: "https://miro.medium.com/max/1920/1*4LCbCBbYUrz0aPzJHHQTgQ.png",
         url: "https://medium.com/@rodrigoalmeida.design/meu-primeiro-site-de-portf%C3%B3lio-ux-ui-design-6b4751689b36",
     },
     {
