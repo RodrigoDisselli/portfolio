@@ -80,6 +80,7 @@ body::-webkit-scrollbar-thumb {
 
 h2, h3 {
     color: #05F29B;
+    letter-spacing: 0.08em;
 }
 
 h2 {
