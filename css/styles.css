@@ -404,6 +404,10 @@ section {
         font-size: 1.3em;
     }
 
+    .social-media .social-media-icon:hover .social-media-icon-tooltip {
+        display: none;
+    }
+
     .btn {
         height: 56px;
         padding: 0 32px;
