@@ -245,11 +245,11 @@ a {
 
 .horizontal-scroll::-webkit-scrollbar {
     width: 8px;
-    height: 8px;
+    height: 12px;
 
     /* temporariamente oculto para testes */
 
-    display: none;
+    /* display: none; */
 }
  
 .horizontal-scroll::-webkit-scrollbar-track {
@@ -263,7 +263,7 @@ a {
 .card-list-horizontal {
     display: flex;
     flex-shrink: unset;
-    padding: 0 24px 0px 0;
+    padding: 0 24px 12px 0;
 }
 
 .card-list-horizontal .card-list-horizontal-item {
