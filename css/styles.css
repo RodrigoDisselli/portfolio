@@ -254,7 +254,7 @@ a {
 
     /* temporariamente oculto para testes */
 
-    display: none;
+    /* display: none; */
 }
  
 .horizontal-scroll::-webkit-scrollbar-track {
