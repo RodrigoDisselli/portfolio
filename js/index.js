@@ -9,8 +9,8 @@ function createList(title, image, url, parent) {
   div.classList.add("card-list-horizontal-item");
   div.style.backgroundImage = `url(${image})`;
   div.innerHTML = `
-    <a href="${url}" target="_blank" class="card-opacity"></a>
-    <a href="${url}" target="_blank" class="card-title">${title}</a>
+    <div onclick="window.open('${url}', '_blank');" class="card-opacity"></div>
+    <div onclick="window.open('${url}', '_blank');" class="card-title">${title}</div>
     `
   return parent.appendChild(div);
 }

@@ -241,6 +241,11 @@ a {
 
 .horizontal-scroll {
     overflow-x: scroll;
+    cursor: grab;
+}
+
+.horizontal-scroll:active {
+    cursor: grabbing;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
@@ -249,7 +254,7 @@ a {
 
     /* temporariamente oculto para testes */
 
-    /* display: none; */
+    display: none;
 }
  
 .horizontal-scroll::-webkit-scrollbar-track {
@@ -263,7 +268,7 @@ a {
 .card-list-horizontal {
     display: flex;
     flex-shrink: unset;
-    padding: 0 24px 12px 0;
+    padding: 24px 24px 24px 0;
 }
 
 .card-list-horizontal .card-list-horizontal-item {
@@ -460,6 +465,10 @@ section {
 
     section {
         padding: 40px 0;
+    }
+
+    .card-list-horizontal {
+        padding: 0px 24px 0px 0;
     }
     
 }
