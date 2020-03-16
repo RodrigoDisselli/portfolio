@@ -1,5 +1,10 @@
 const projects = [
     {
+        title: "App para gestão de gastos pessoais",
+        image: "https://mir-s3-cdn-cf.behance.net/projects/404/22150b93823409.Y3JvcCwzMjY2LDI1NTUsMTYsMA.jpg",
+        url: "https://www.behance.net/gallery/93823409/Gestao-de-gastos-pessoais",
+    },
+    {
         title: "Tab Manager - Chrome extension",
         image: "https://mir-s3-cdn-cf.behance.net/projects/404/0e270391084753.Y3JvcCwxOTIwLDE1MDEsMCwyODU.png",
         url: "https://www.behance.net/gallery/91084753/Tab-Manager-Chrome-extension",
