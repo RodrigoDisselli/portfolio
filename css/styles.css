@@ -1,486 +1,402 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(16, 0, 41);
+    font-family: 'Roboto Slab', serif;
+    background-color: #110F17;
     color: #F0F0F0;
     overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-    width: 8px;
+    width: 12px;
     height: 8px;
 
 }
  
 body::-webkit-scrollbar-track {
-    background-color: #090909;
+    background-color: #110F17;
 }
  
 body::-webkit-scrollbar-thumb {
-    background-color: #05F29B;
+    background-color: #EFEFEF;
 }
 
 
-.page-header {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(45deg, #1c0044, #5300c7);
-}
+/* Typography */
 
-.page-header .page-header-background-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/background-image.png');
-    background-position: top center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0;
-}
 
-.logo-ux-ui {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    width: 56px;
-    z-index: 1;
-}
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> TITULOS E TEXTOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.page-header h1, .page-header h3 {
-    margin: 0;
-    z-index: 1;
-}
-
-.page-header h1 {
-    font-size: 4.5em;
-    text-transform: uppercase;
-    font-weight: 900;
-    text-align: center;
-    line-height: 1em;
-}
-
-.page-header h3 {
-    font-size: 2.2em;
-    font-weight: 500;
-    text-align: center;
-    color: #05F29B;
-    margin-bottom: 4px;
-}
-
-.page-header p {
-    margin: 16px 0 8px 0;
-    z-index: 1;
-}
-
-h2, h3 {
-    color: #05F29B;
-    letter-spacing: 0.08em;
+h1 {
+    display: block;
+    font-size: 40px;
+    margin: 0 0 2px 0;
 }
 
 h2 {
-    font-size: 1.8em;
+    display: block;
+    font-size: 28px;
+    margin: 0 0 2px 0;
+}
+
+h3 {
+    display: block;
+    font-size: 22px;
+    margin: 0 0 2px 0;
+}
+
+h4 {
+    margin: 0 0 8px 0;
+}
+
+h5 {
+    font-size: 12px;
+    margin: 0 0 2px 0;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.25em;
-    line-height: 2em;
-    letter-spacing: 0.06em;
-    margin: 24px 0;
+    font-size: 20px;
+    line-height: 48px;
 }
 
-p > i.material-icons {
-    font-size: 16px;
-}
-
-b {
-    color: rgb(2, 214, 136);
-    font-weight: 400;
-}
-
-a {
-    cursor: pointer;
-    color: #F5F5F5;
-    text-decoration: none;
-    font-size: 1.25em;
-    line-height: 2em;
-}
-
-.email-address {
-    padding-bottom: 2px;
-    border-bottom: 2px solid #05F29B;
-}
-
-.email-address:hover {
-    color: #05F29B;
-}
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> BOTOES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.btn {
-    font-family: 'Roboto', sans-serif;
-    border: none;
-    height: 56px;
-    padding: 0 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #05F29B;
-    color: #1C0044;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.0em;
-    margin-top: 40px;
-    cursor: pointer;
-    outline: none;
-    z-index: 1;
-}
-
-.btn:hover {
-    background-color: #05FFB6;
-}
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> SOCIAL MEDIA <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.social-media {
-    display: flex;
-    margin-top: 48px;
-    z-index: 1;
-}
-
-.social-media .social-media-icon:hover {
-    background-color: rgb(255, 255, 255, 0.15);
-}
-
-.social-media .social-media-icon:hover .social-media-icon-tooltip {
+#role {
     display: block;
+    font-weight: 200;
+    font-size: 24px;
+    margin-bottom: 4px;
 }
 
-.social-media .social-media-icon {
-    margin: 0 4px;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
+#xp {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+#contact-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#email {
+    font-weight: 300;
+}
+
+#contact-label>.material-icons {
+    margin-right: 8px;
+}
+
+.skill-list-item > span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.table-left-align {
+    text-align: right;
+}
+
+.table-right-align {
+    text-align: left;
+}
+
+
+.xp-list-item-left > span {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.xp-list-item-right > span {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.xp-list-item-left > a {
+    font-size: 14px;
+    color: #EFEFEF;
+}
+
+.xp-list-item-right > a {
+    font-size: 14px;
+    color: #EFEFEF;
+}
+
+
+.social-media-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 24px;
+}
+
+
+.social-media-btn {
+    display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 24px;
-    transition: all .1s;
-    width: 48px;
-    height: 48px;
-    position: relative;
-    cursor: pointer;
-}
-
-.social-media #linkedin {background-image: url('../images/icons/linkedin_white.svg');}
-.social-media #instagram {background-image: url('../images/icons/instagram_white.svg');}
-.social-media #behance {background-image: url('../images/icons/behance_white.svg');}
-.social-media #medium {background-image: url('../images/icons/medium_white.svg');}
-.social-media #email {background-image: url('../images/icons/email_white.svg');}
-
-
-.social-media .social-media-icon-tooltip {
-    display: none;
-    position: absolute;
-    background-color: rgb(255, 255, 255, 0.75);
-    padding: 2px 8px;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background-color: #110F17;
+    margin-right: 8px;
+    box-sizing: border-box;
     border-radius: 4px;
-    color: #1C0044;
-    z-index: 10;
-    top: calc(100% + 12px);
-    left: 0px;
-    word-wrap: unset;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>> SETA DE SCROLL <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.social-media-btn > img {
+    width: 16px;
+    box-sizing: border-box;
+}
 
-.icon-scroll {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    bottom: 24px;
-    left: calc(50% - 12px);
+.social-media-btn:hover {
+    transition: 0.26s;
+    background-color: #32294D;
+}
+
+
+#location {
+    display: block;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+
+
+/* General */
+
+#page-header-arrow {
+    margin-top: 80px;
+}
+
+.button {
+    all: unset;
     cursor: pointer;
-}
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> CONTAINER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.container {
-    margin: 5%;
-    box-sizing: border-box;
+    background-color: #EFEFEF;
+    color: #110F17;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 16px 24px;
     display: flex;
-    flex-grow: 1;
-    max-width: 1200px;
-    margin: auto;
-    position: relative;
-}
-
-.container .col {
-    order: 2;
-    padding: 0 24px;
-    width: 50%;
-    box-sizing: border-box;
-}
-
-.container .col.center {
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> LISTA HORIZONTAL DE CARDS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.horizontal-scroll {
-    overflow-x: scroll;
-    cursor: grab;
-}
-
-.horizontal-scroll:active {
-    cursor: grabbing;
-}
-
-.horizontal-scroll::-webkit-scrollbar {
-    width: 8px;
-    height: 12px;
-
-    /* temporariamente oculto para testes */
-
-    /* display: none; */
-}
- 
-.horizontal-scroll::-webkit-scrollbar-track {
-    background-color: transparent;
-}
- 
-.horizontal-scroll::-webkit-scrollbar-thumb {
-    background-color: rgb(43, 6, 95);
-}
-
-.card-list-horizontal {
-    display: flex;
-    flex-shrink: unset;
-    padding: 24px 24px 24px 0;
-}
-
-.card-list-horizontal .card-list-horizontal-item {
-    width: 350px;
-    min-width: 350px;
-    height: 350px;
-    max-width: 350px;
-    max-height: 350px;
-    background-color: rgb(46, 4, 105);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../images/intro-image.png');
-    position: relative;
-    margin-left: 24px;
-    cursor: pointer;
-    box-shadow: 0 1px 2px black;
-}
-
-.card-list-horizontal .card-list-horizontal-item .card-title {
-    z-index: 10;
-    position: absolute;
-    padding: 16px;
-    margin: 0;
-    color: #F5F5F5;
-    text-shadow: 1px 2px black;
-    letter-spacing: 0.06em;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 1.5em;
-    text-decoration: none;
-}
-
-.card-list-horizontal .card-list-horizontal-item:hover .card-opacity {
-    background-color: rgb(28, 0, 68, 0.76);
-}
-
-.card-list-horizontal .card-list-horizontal-item:hover .card-title {
-    color: #05FFB6;
-}
-
-.card-list-horizontal .card-list-horizontal-item .card-opacity {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(28, 0, 68, 0.65);
-    z-index: 0;
-}
-
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> INTRO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-section {
-    padding: 64px 0;
+    width: fit-content;
     box-sizing: border-box;
 }
 
-.intro-image {
-    width: 80%;
-    max-width: 450px;
+.button>img {
+    margin-right: 8px;
+    width: 20px;
+}
+
+.button:hover {
+    transition: 0.26s;
+    background-color: #D4C6FC;
 }
 
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#profile-picture {
+    max-width: 320px;
+}
+
+.page-header {
+    padding: 120px 32px 40px 32px;
+    background-color: #181521;
+}
 
 .page-footer {
+    padding: 64px 15% 64px 15%;
+    background-color: #181521;
+}
+
+.page-footer > * {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    display: block;
+    width: fit-content;
+    margin: 12px 0;
     box-sizing: border-box;
-    background-color: #090909;
-    position: relative;
-    margin-top: 64px;
 }
 
-.page-footer .container.max-height {
-    padding: 40px 0;
-    height: 350px;
+.section-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
-.page-footer .footer-image {
-    width: 350px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.section-subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-.page-footer .social-media {
-    margin: 0 16px 0 0;
-    z-index: 10;
+.skill-list-item {
+    margin-bottom: 56px;
 }
 
-.page-footer .social-media .social-media-icon.first-child {
-    margin: 0 16px 0 0;
+.graduation-list-item > span, .graduation-list-item > a  {
+    font-size: 14px;
+    font-weight: 300;
+    color: #EFEFEF;
 }
 
-.page-footer p {
-    margin: 12px 0 12px 0;
+.graduation-list-item {
+    margin-bottom: 32px;
 }
 
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>> ALERTAS INLINE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.inline-alert {
-    position: absolute;
-    background-color: #F5F5F5;
-    padding: 8px 12px;
-    /* border-radius: 4px; */
-    color: #1C0044;
-    z-index: 10000;
-    top: calc(100% + 12px);
-    left: 0px;
-    word-wrap: unset;
-    white-space: nowrap;
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    box-shadow: 0 12px 24px rgb(0,0,0, .32);
+#about {
+    padding: 64px 15%;
+    line-height: 2em;
 }
 
+#experience-section-web {
+    background-color: #181521;
+    padding: 64px 15%;
+}
 
+td {
+    vertical-align: top;
+}
 
+.xp-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.xp-steps-dot {
+    width: 33px;
+    margin: 16px 0;
+}
+
+.xp-steps-line {
+    height: max-content;
+}
+
+#experience-section-mobile {
+    display: none;
+    background-color: #181521;
+    padding: 64px 15%;
+}
+
+#graduation-section {
+    padding: 64px 15%;
+}
+
+/* Responsivity */
+
+@media (max-width: 992px) {
+
+    #profile-picture {
+        max-width: 200px;
+        
+    }
+    
+}
 
 
 @media (max-width: 768px) {
 
-    .logo-ux-ui {
-        width: 40px;
+    #profile-picture {
+        max-width: 120px;
+    }
+
+    h1 {
+        display: block;
+        font-size: 24px;
+        margin: 32px 0 2px 0;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    
+    #role {
+        display: block;
+        font-weight: 200;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    
+    #xp {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 4px;
     }
 
     .page-header {
-        background-size: 100vh auto;
-    }
-
-    .page-header h1 {
-        font-size: 3em;
+        padding: 60px 32px 40px 32px;
+        background-color: #181521;
     }
     
-    .page-header h3 {
-        font-size: 1.3em;
+    #page-header-arrow {
+        margin-top: 56px;
+        width: 16px;
     }
-
-    .social-media .social-media-icon:hover .social-media-icon-tooltip {
-        display: none;
-    }
-
-    .btn {
-        height: 56px;
-        padding: 0 32px;
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    .container.row-on-mobile {
-        flex-direction: row;
-    }
-
-    .container .col {
-        padding: 0 24px;
-        width: 100%;
-    }
-
-    .container .col.mob-order1 {
-        order: 1;
-    }
-
-    .intro-image {
-        width: 80%;
-        margin-bottom: 32px;
-    }
-
-    .page-footer .footer-image {
+    
+    #tools-icons {
         width: 200px;
     }
 
-    .page-footer .container.max-height {
-        height: 520px;
-    }
-
-    .card-list-horizontal .card-list-horizontal-item {
-        width: 70vw;
-        min-width: 240px;
-        height: 70vw;
-        min-height: 70vw;
-    }
-
-    .card-list-horizontal .card-list-horizontal-item .card-title {
-        font-size: 1.4em;
-    }
-
-    .horizontal-scroll::-webkit-scrollbar {
+    #experience-section-web {
         display: none;
     }
 
-    section {
-        padding: 40px 0;
+    #experience-section-mobile {
+        display: block;
     }
 
-    .card-list-horizontal {
-        padding: 0px 24px 0px 0;
-    }
-    
-}
-
-@media (min-width: 1600px) {
-
-    .page-header h1 {
-        font-size: 6.4em;
-    }
-    
-    .page-header h3 {
-        font-size: 2.8em;
+    .button {
+        font-size: 14px;
     }
 
 }
+
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s infinite alternate both;
+	        animation: slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s infinite alternate both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-1-4 13:52:0
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+  

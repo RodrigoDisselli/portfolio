@@ -3,9 +3,13 @@
   <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/ico" href="images/logo_portfolio.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css"/>
     <meta name="theme-color" content="#5300c7" />
     <title>Rodrigo Almeida - UX/UI Designer</title>
     <meta name="keywords" content="Design, UX, UI, UX/UI, Product, App Design, Webdesign, Adobe Xd, Sketch">
@@ -33,93 +37,472 @@
     </script>
   </head>
   <body>
-    <img src="images/logo_portfolio_no_bg.svg" alt="Logo do site, uma letra R estilizada" class="logo-ux-ui">
     <header class="page-header">
-        <div class="page-header-background-img"></div>
-        <h3>Rodrigo Almeida</h3>
-        <h1>UI/UX<br>Designer</h1>
-        <p><i class="material-icons">location_on</i> Campinas/SP - Brasil</p>
-        
-        <button class="btn" onclick="goTo('intro')">Saiba mais</button>
-        <div class="social-media">
-            <a name="acesso ao meu linkedin" href="https://www.linkedin.com/in/rodrigodissellialmeida/" target="_blank" id="linkedin" class="social-media-icon">
-                <div class="social-media-icon-tooltip">/rodrigodissellialmeida</div>
-            </a>
-            <a name="acesso ao meu instagram" href="https://www.instagram.com/rodrigoalmeida.design/" target="_blank" id="instagram" class="social-media-icon">
-                <div class="social-media-icon-tooltip">@rodrigoalmeida.design</div>
-            </a>
-            <a name="acesso ao meu behance" href="https://www.behance.net/disselliroa3a3" target="_blank" id="behance" class="social-media-icon">
-                <div class="social-media-icon-tooltip">Meu portfólio</div>
-            </a>
-            <a name="acesso ao meu medium" href="https://medium.com/@rodrigoalmeida.design" target="_blank" id="medium" class="social-media-icon">
-                <div class="social-media-icon-tooltip">@rodrigoalmeida.design</div>
-            </a>
-            <a name="endereço do meu e-mail" onclick="copyText('disselli.rodrigo@gmail.com', 'E-mail copiado! 😊', 'email')" id="email" class="social-media-icon">
-                <div class="social-media-icon-tooltip">Clique para copiar</div>
-            </a>
+        <div class="row middle-lg middle-md">
+            <div class="col-xs-12
+                        col-sm-5
+                        col-md-6
+                        col-lg-6
+                        
+                        end-lg
+                        end-md
+                        end-sm
+                        start-xs">
+                <div class="box">
+                    <img id="profile-picture" src="images/profile_edited.png">
+                </div>
+            </div>
+            <div class="col-xs-12
+                        col-sm-7
+                        col-md-6
+                        col-lg-6
+                        
+                        start-lg
+                        start-md
+                        start-sm
+                        start-xs">
+                <div class="box">
+                    <h1>Rodrigo D. Almeida</h1>
+                    <span id="role">UI/UX DESIGNER - PLENO</span>
+                    <span id="xp">5 ANOS DE EXPERIÊNCIA DE TRABALHO</span>
+                    <img class="divider" src="images/horizontal_divider.svg">
+                    <span id="location">Campinas/SP - Brasil</span>
+                    <div class="social-media-icons">
+                        <!-- <a class="social-media-btn" target="_blank" href="https://www.linkedin.com/in/rodrigodissellialmeida/">
+                            <img src="images/icons/linkedin_white.svg">
+                        </a> -->
+                        <a class="social-media-btn" target="_blank" href="https://medium.com/@rodrigoalmeida.design">
+                            <img src="images/icons/medium_white.svg">
+                        </a>
+                        <a class="social-media-btn" target="_blank" href="https://www.behance.net/disselliroa3a3">
+                            <img src="images/icons/behance_white.svg">
+                        </a>
+                    </div>
+                    <a class="button" target="_blank" href="https://www.linkedin.com/in/rodrigodissellialmeida/">
+                        <img src="images/icons/linkedin_black.svg">Entre em contato
+                    </a>
+                </div>
+            </div>
         </div>
-        <img class="icon-scroll" onclick="goTo('projects')" alt="seta indicando a presença de conteúdo abaixo do título" src="images/icons/arrow_down.svg">
+        <div class="row">
+            <div class="col-xs center-xs center-sm center-md center-lg">
+                <div class="box">
+                    <img class="slide-bottom" id="page-header-arrow" src="images/icons/arrow_down.svg">
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="projects">
-        <div class="container"><div class="col"><h2>✌ Cases & Projetos</h2></div></div>
-        <div class="horizontal-scroll" id="project-list-scroll">
-            <div class="container row-on-mobile">
-                <div class="card-list-horizontal" id="project-list">
+    <section id="about">
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12
+                        
+                        center-lg
+                        center-md
+                        center-sm
+                        center-xs">
+                <div class="box">
+                    <div class="section-title">
+                        <h2>Sobre</h2>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <p>Trabalho como UX/UI Designer desde 2018, durante minha carreira ja tive a oportunidade de trabalhar com empresas de dentro e fora do Brasil.</p>
+                    <p>Já trabalhei na melhoria e manutenção de sistemas Web acessados por milhares de usuários diariamente, participei na criação de Design Systems, levantamento de requisitos, estudo de usabilidade (utilizando dados de uso e os analisando por meio de tabelas e gráficos, em busca de padrões e insights), também já fiz entrevistas com usuários e stakeholdes (conduzidas tanto em português quanto em inglês).</p>
+                    <p>Tenho conhecimento sobre lógica de programação e funcionamento de sistemas, o que me garante uma agilidade maior em me comunicar com desenvolvedores  e analistas. </p>
+
+                    <div class="section-subtitle">
+                        <h3>Experiente com as Ferramentas</h3>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <img id="tools-icons" src="images/tools-icons.png">
+
+                    <div class="section-subtitle">
+                        <h3>Conhecimentos Adicionais</h3>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <div class="skill-list-item">
+                        <h4>INGLÊS AVANÇADO</h4>
+                        <span>Conversação e Leitura</span>
+                        <br><span>Experiência com reuniões internacionais e viagens ao exterior</span>
+                        
+                    </div>
+
+                    <div class="skill-list-item">
+                        <h4>DESENVOLVIMENTO WEB BÁSICO</h4>
+                        <span>HTML5 | CSS3 | JavaScript</span>
+                    </div>
+
+                    <div class="skill-list-item">
+                        <h4>ILUSTRAÇÃO DIGITAL</h4>
+                        <span>Experiente com desenho de personagens e cenas</span>
+                    </div>
+
+                    <div class="skill-list-item">
+                        <h4>EDIÇÃO DE VIDEO</h4>
+                        <span>Conhecimento básico de edição com Adobe Premiere e After Effects</span>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="articles">
-        <div class="container"><div class="col"><h2>📃 Artigos & Posts</h2></div></div>
-        <div class="horizontal-scroll" id="article-list-scroll">
-            <div class="container row-on-mobile">
-                <div class="card-list-horizontal" id="article-list">
+    <section id="experience-section-web">
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12
+                        
+                        center-lg
+                        center-md
+                        center-sm
+                        center-xs">
+                <div class="box">
+
+                    <div class="section-title">
+                        <h2>Experiência</h2>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <table  style="width:100%">
+                        <tr>
+                            <th></th>
+                            <th style="width:80px"></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_fill.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>UI/UX Designer Pleno</h4>
+                                    <a target="_blank" href="https://www.venturus.org.br/">Venturus</a><br>
+                                    <span>Janeiro/2021 - Atualmente</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left-align">
+                                <div class="xp-list-item-left">
+                                    <h4>UI/UX Designer Júnior</h4>
+                                    <a target="_blank" href="https://www.venturus.org.br/">Venturus</a><br>
+                                    <span>Maio/2020 - Janeiro/2021</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>Product Designer (UI/UX) <br> Júnior</h4>
+                                    <a target="_blank" href="https://assertivasolucoes.com.br/?utm_source=google&utm_campaign=20200615-pesquisa-marca&utm_medium=text_ad&utm_content=marca-variacoes&utm_term=assertiva%20campinas&gclid=Cj0KCQiA5NSdBhDfARIsALzs2EAsNlg1CzvjOLTtYqUL1NDYTd19d_NBmCMajnwwrcKu7Sdkte_eyEQaArTgEALw_wcB" >Assertiva Soluções</a><br>
+                                    <span>Novembro/2019 - Abril/2020</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-left-align">
+                                <div class="xp-list-item-left">
+                                    <h4>Product Designer (UI/UX)<br>Treinee/Estagiário</h4>
+                                    <a target="_blank" href="https://assertivasolucoes.com.br/?utm_source=google&utm_campaign=20200615-pesquisa-marca&utm_medium=text_ad&utm_content=marca-variacoes&utm_term=assertiva%20campinas&gclid=Cj0KCQiA5NSdBhDfARIsALzs2EAsNlg1CzvjOLTtYqUL1NDYTd19d_NBmCMajnwwrcKu7Sdkte_eyEQaArTgEALw_wcB">Assertiva Soluções</a><br>
+                                    <span>Julho/2018 - Novembro/2019</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                      </table>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="experience-section-mobile">
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12
+                        
+                        center-lg
+                        center-md
+                        center-sm
+                        center-xs">
+                <div class="box">
+
+                    <div class="section-title">
+                        <h2>Experiência</h2>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <table  style="width:100%">
+                        <tr>
+                            <th style="width:80px"></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_fill.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>UI/UX Designer Pleno</h4>
+                                    <a target="_blank" href="https://www.venturus.org.br/">Venturus</a><br>
+                                    <span>Janeiro/2021 - Atualmente</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>UI/UX Designer Júnior</h4>
+                                    <a target="_blank" href="https://www.venturus.org.br/">Venturus</a><br>
+                                    <span>Maio/2020 - Janeiro/2021</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                    <img class="xp-steps-line" src="images/assets/step_vertical_line.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>Product Designer (UI/UX) <br> Júnior</h4>
+                                    <a target="_blank" href="https://assertivasolucoes.com.br/?utm_source=google&utm_campaign=20200615-pesquisa-marca&utm_medium=text_ad&utm_content=marca-variacoes&utm_term=assertiva%20campinas&gclid=Cj0KCQiA5NSdBhDfARIsALzs2EAsNlg1CzvjOLTtYqUL1NDYTd19d_NBmCMajnwwrcKu7Sdkte_eyEQaArTgEALw_wcB" >Assertiva Soluções</a><br>
+                                    <span>Novembro/2019 - Abril/2020</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="xp-steps">
+                                    <img class="xp-steps-dot" src="images/assets/step_empty.svg">
+                                </div>
+                            </td>
+                            <td class="table-right-align">
+                                <div class="xp-list-item-right">
+                                    <h4>Product Designer (UI/UX)<br>Treinee/Estagiário</h4>
+                                    <a target="_blank" href="https://assertivasolucoes.com.br/?utm_source=google&utm_campaign=20200615-pesquisa-marca&utm_medium=text_ad&utm_content=marca-variacoes&utm_term=assertiva%20campinas&gclid=Cj0KCQiA5NSdBhDfARIsALzs2EAsNlg1CzvjOLTtYqUL1NDYTd19d_NBmCMajnwwrcKu7Sdkte_eyEQaArTgEALw_wcB">Assertiva Soluções</a><br>
+                                    <span>Julho/2018 - Novembro/2019</span>
+                                </div>
+                            </td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="graduation-section">
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12
+                        
+                        center-lg
+                        center-md
+                        center-sm
+                        center-xs">
+                <div class="box">
+
+                    <div class="section-title">
+                        <h2>Formação</h2>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <div class="graduation-list-item">
+                        <h4>Bacharelado em Engenharia de Computação</h4>
+                        <a target="_blank" href="https://unisal.br/">Centro Universitário Salesiano de São Paulo</a><br>
+                        <span>2016 - 2020</span>
+                    </div>
+
+                    <div class="section-subtitle">
+                        <h2>Cursos e Certificados</h2>
+                        <img class="divider" src="images/horizontal_divider.svg">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>UI DESIGN PATTERNS: USABILIDADE EM INTERFACES MOBILE</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>Bootstrap: criação de uma single-page responsiva</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>Gestalt: aplicando princípios em um layout Photoshop</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>UX WRITING: CONTEÚDO FOCADO NO USUÁRIO</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>Design Thinking parte 1: Utilize uma metodologia de design para solucionar desafios</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>UX Designer</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>Principles + Practices for Great UI Design</h5>
+                                    <span>Udemy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                                <div class="graduation-list-item">
+                                    <h5>Flexbox: Posicione elementos na tela</h5>
+                                    <span>Alura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12
+                                    col-sm-6
+                                    col-md-6
+                                    col-lg-4">
+                            <div class="box">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+                    
+    </section>
+
     
-    <section id="intro">
-        <div class="container">
-            <div class="col">
-                <h2>Sobre mim</h2>
-                <p>Eu trabalho com design de produtos (UX/UI) há quase 2 anos, na minha rotina eu realizo pesquisas de mercado, faço o design de interfaces desde o primeiro rabisco no papel até o <b>protótipo de alta fidelidade com Adobe Xd ou Figma</b>.</p>
-                <p>Tenho experiência trabalhando com <b>Bootstrap</b>, <b>Ant Design</b> e <b>Material Design</b>, mas também já desenvolvi minhas próprias Guidelines.</p>
-                <p>Já participei de projetos como desenvolvedor Front-end, utilizando <b>HTML5</b>, <b>CSS3</b>, <b>Vanilla Javascript</b> e <b>React.js</b>. Também já desenvolvi aplicativos mobile com Flutter. E no momento estou cursando o último ano da minha graduação em Engenharia da Computação.</p>
-                <!-- <button class="btn">Ver currículo completo</button> -->
-            </div>
-            <div class="col center mob-order1">
-                <img src="images/intro-image.png" alt="Minha foto de perfil" class="intro-image">
-            </div>
-        </div>
-    </section>
-
     <footer class="page-footer">
-        <div class="container max-height">
-            <div class="col">
-                <h2>Contato</h2>
-                <a id="email-address" class="email-address" onclick="copyText('disselli.rodrigo@gmail.com', 'E-mail copiado! 😊', 'email-address')">disselli.rodrigo@gmail.com</a>
-                <p><i class="material-icons">location_on</i> Campinas/SP - Brasil</p>
-                <div class="social-media">
-                    <a name="acesso ao meu linkedin" href="https://www.linkedin.com/in/rodrigodissellialmeida/" target="_blank" id="linkedin" class="social-media-icon">
-                        <div class="social-media-icon-tooltip">/rodrigodissellialmeida</div>
-                    </a>
-                    <a name="acesso ao meu instagram" href="https://www.instagram.com/rodrigoalmeida.design/" target="_blank" id="instagram" class="social-media-icon">
-                        <div class="social-media-icon-tooltip">@rodrigoalmeida.design</div>
-                    </a>
-                    <a name="acesso ao meu behance" href="https://www.behance.net/disselliroa3a3" target="_blank" id="behance" class="social-media-icon">
-                        <div class="social-media-icon-tooltip">Meu portfólio</div>
-                    </a>
-                    <a name="acesso ao meu medium" href="https://medium.com/@rodrigoalmeida.design" target="_blank" id="medium" class="social-media-icon">
-                        <div class="social-media-icon-tooltip">@rodrigoalmeida.design</div>
+        <div class="row center-lg">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12
+                        
+                        center-xs
+                        center-sm
+                        center-md
+                        center-lg">
+                <div class="box">
+                    <div class="social-media-icons">
+                        <!-- <a class="social-media-btn" target="_blank" href="https://www.linkedin.com/in/rodrigodissellialmeida/">
+                            <img src="images/icons/linkedin_white.svg">
+                        </a> -->
+                        <a class="social-media-btn" target="_blank" href="https://medium.com/@rodrigoalmeida.design">
+                            <img src="images/icons/medium_white.svg">
+                        </a>
+                        <a class="social-media-btn" target="_blank" href="https://www.behance.net/disselliroa3a3">
+                            <img src="images/icons/behance_white.svg">
+                        </a>
+                    </div>
+                    <a class="button" target="_blank" href="https://www.linkedin.com/in/rodrigodissellialmeida/">
+                        <img src="images/icons/linkedin_black.svg">Entre em contato
                     </a>
                 </div>
             </div>
-            <img src="images/emoji-footer-img.png" alt="Mão segurando uma pelucia de emoticon chorando" class="footer-image">
         </div>
-        
     </footer>
     
         
