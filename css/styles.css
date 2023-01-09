@@ -143,6 +143,19 @@ p {
     border-radius: 4px;
 }
 
+.social-media-btn.text {
+    width: fit-content;
+    color: #EFEFEF;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 12px;
+}
+
+.social-media-btn.text > img {
+    margin-right: 8px;
+}
+
 .social-media-btn > img {
     width: 16px;
     box-sizing: border-box;
