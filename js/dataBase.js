@@ -1,7 +1,7 @@
 const languagePtbr ={
 
     headerName: "Rodrigo D. Almeida",
-    headerRole: "UI/UX DESIGNER - PLENO",
+    headerRole: "UI/UX & PRODUCT DESIGNER - PLENO",
     headerXp: "5 ANOS DE EXPERIÊNCIA DE TRABALHO",
     headerLocation: "Campinas/SP - Brasil",
     headerPortfolio: "MEU PORTFÓLIO",
@@ -81,7 +81,7 @@ const languagePtbr ={
 const languageEn ={
 
     headerName: "Rodrigo D. Almeida",
-    headerRole: "UI/UX DESIGNER - MID-LEVEL",
+    headerRole: "UI/UX & PRODUCT DESIGNER - MID-LEVEL",
     headerXp: "5 YEARS OF EXPERIENCE",
     headerLocation: "Campinas, SP - Brazil",
     headerPortfolio: "MY PORTFOLIO",
