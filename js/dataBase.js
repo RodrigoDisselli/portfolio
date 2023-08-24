@@ -94,7 +94,7 @@ const languageEn ={
     aboutToolsTitle: "Most Used Tools",
     aboutAdditionalKnowledgeTitle: "Additional Knowledge",
     aboutEnglishTitle: "ADVANCED ENGLISH",
-    aboutEnglishSubtitle: "CConversation and Reading<br>Experience with international meetings and working abroad",
+    aboutEnglishSubtitle: "Conversation and Reading<br>Experience with international meetings and working abroad",
     aboutWebTitle: "BASIC WEB DEVELOPMENT",
     aboutWebSubtitle: "HTML5 | CSS3 | JavaScript",
     aboutIllustrationTitle: "DIGITAL ILLUSTRATION",
