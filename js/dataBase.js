@@ -1,7 +1,7 @@
 const languagePtbr ={
 
     headerName: "Rodrigo D. Almeida",
-    headerRole: "UI/UX & PRODUCT DESIGNER - PLENO",
+    headerRole: "UI/UX & PRODUCT DESIGNER - SENIOR",
     headerXp: "5 ANOS DE EXPERIÊNCIA DE TRABALHO",
     headerLocation: "Campinas/SP - Brasil",
     headerPortfolio: "MEU PORTFÓLIO",
@@ -24,14 +24,16 @@ const languagePtbr ={
 
 
     xpTitle: "Experiência",
-    xpRole1Title: "UI/UX Designer Pleno",
-    xpRole1Date: "Janeiro/2021 - Atualmente",
-    xpRole2Title: "UI/UX Designer Júnior",
-    xpRole2Date: "Maio/2020 - Janeiro/2021",
-    xpRole3Title: "Product Designer (UI/UX)<br>Júnior",
-    xpRole3Date: "Novembro/2019 - Abril/2020",
-    xpRole4Title: "Product Designer (UI/UX)<br>Treinee/Estagiário",
-    xpRole4Date: "Julho/2018 - Novembro/2019",
+    xpRole1Title: "UI/UX Designer Senior",
+    xpRole1Date: "Agosto/2023 - Atualmente",
+    xpRole2Title: "UI/UX Designer Pleno",
+    xpRole2Date: "Janeiro/2021 - Agosto/2023",
+    xpRole3Title: "UI/UX Designer Júnior",
+    xpRole3Date: "Maio/2020 - Janeiro/2021",
+    xpRole4Title: "Product Designer (UI/UX)<br>Júnior",
+    xpRole4Date: "Novembro/2019 - Abril/2020",
+    xpRole5Title: "Product Designer (UI/UX)<br>Treinee/Estagiário",
+    xpRole5Date: "Julho/2018 - Novembro/2019",
 
 
     formationTitle: "Formação",
@@ -81,7 +83,7 @@ const languagePtbr ={
 const languageEn ={
 
     headerName: "Rodrigo D. Almeida",
-    headerRole: "UI/UX & PRODUCT DESIGNER - MID-LEVEL",
+    headerRole: "UI/UX & PRODUCT DESIGNER - SENIOR",
     headerXp: "5 YEARS OF EXPERIENCE",
     headerLocation: "Campinas, SP - Brazil",
     headerPortfolio: "MY PORTFOLIO",
@@ -104,14 +106,16 @@ const languageEn ={
 
 
     xpTitle: "Experience",
-    xpRole1Title: "UI/UX Designer Mid-Level",
-    xpRole1Date: "January, 2021 - Currently",
+    xpRole1Title: "UI/UX Designer Senior",
+    xpRole1Date: "August, 2023 - Currently",
     xpRole2Title: "UI/UX Designer Junior",
-    xpRole2Date: "May, 2020 - January, 2021",
-    xpRole3Title: "Product Designer (UI/UX)<br>Junior",
-    xpRole3Date: "November, 2019 - April, 2020",
-    xpRole4Title: "Product Designer (UI/UX)<br>Treinee/Intern",
-    xpRole4Date: "July, 2018 - November, 2019",
+    xpRole2Date: "January, 2021 - August, 2023",
+    xpRole3Title: "UI/UX Designer Junior",
+    xpRole3Date: "May, 2020 - January, 2021",
+    xpRole4Title: "Product Designer (UI/UX)<br>Junior",
+    xpRole4Date: "November, 2019 - April, 2020",
+    xpRole5Title: "Product Designer (UI/UX)<br>Treinee/Intern",
+    xpRole5Date: "July, 2018 - November, 2019",
 
 
     formationTitle: "Graduation",

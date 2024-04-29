@@ -59,6 +59,8 @@ function printData(language){
   document.getElementById("xp-role3-date").innerHTML=language.xpRole3Date;
   document.getElementById("xp-role4-title").innerHTML=language.xpRole4Title;
   document.getElementById("xp-role4-date").innerHTML=language.xpRole4Date;
+  document.getElementById("xp-role5-title").innerHTML=language.xpRole5Title;
+  document.getElementById("xp-role5-date").innerHTML=language.xpRole5Date;
 
   document.getElementById("xp-title-mobile").innerHTML=language.xpTitle;
   document.getElementById("xp-role1-title-mobile").innerHTML=language.xpRole1Title;
@@ -69,6 +71,8 @@ function printData(language){
   document.getElementById("xp-role3-date-mobile").innerHTML=language.xpRole3Date;
   document.getElementById("xp-role4-title-mobile").innerHTML=language.xpRole4Title;
   document.getElementById("xp-role4-date-mobile").innerHTML=language.xpRole4Date;
+  document.getElementById("xp-role5-title-mobile").innerHTML=language.xpRole5Title;
+  document.getElementById("xp-role5-date-mobile").innerHTML=language.xpRole5Date;
 
   document.getElementById("formation-title").innerHTML=language.formationTitle;
   document.getElementById("formation-college-title").innerHTML=language.formationCollegeTitle;
