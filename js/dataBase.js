@@ -90,9 +90,9 @@ const languageEn ={
     headerContactBtn: "CONTACT ME",
 
     aboutTitle: "About",
-    aboutText1: "I've been working as a UX/UI Designer since 2018, during my career I've had the opportunity to work with companies from inside and outside Brazil.",
-    aboutText2: "I've worked on improving and maintaining Web systems accessed by thousands of users daily, I've participated in the creation of Design Systems, requirements gathering, usability studies (Data analysis through tables and graphs, in search of patterns and insights), I have also conducted interviews with users and stakeholders (in both Portuguese and English).",
-    aboutText3: "I have programming logic and systems operation knowledge, which guarantees me greater agility in communicating with developers and analysts.",
+    aboutText1: "I’m a UX/UI Designer with 6+ years of experience creating user-centered digital products for companies in Brazil and abroad. Since 2018, I’ve worked on projects ranging from enterprise web systems used daily by thousands of users to scalable design systems that ensure consistency and efficiency across teams.",
+    aboutText2: "My expertise covers the full design process, from Research & Discovery, conducting user interviews, stakeholder workshops, requirements gathering, and usability testing in both Portuguese and English, to Data-Driven Insights, analyzing usage patterns through tables, graphs, and metrics to optimize usability and performance, followed by Design Execution, creating wireframes, prototypes, and high-fidelity interfaces using Figma, Sketch, and Adobe XD, and finally Collaboration, working closely with developers, analysts, and product teams while leveraging my background in programming logic and systems operations to ensure a seamless design-to-development handoff.",
+    aboutText3: "I’m passionate about designing intuitive, accessible, and impactful user experiences. I continuously explore AI and emerging design tools to optimize workflows and deliver better results faster.",
     aboutToolsTitle: "Most Used Tools",
     aboutAdditionalKnowledgeTitle: "Additional Knowledge",
     aboutEnglishTitle: "ADVANCED ENGLISH",
@@ -156,6 +156,7 @@ const languageEn ={
             subtitle: "Alura"
         },
     ]
+
 
 
 };
